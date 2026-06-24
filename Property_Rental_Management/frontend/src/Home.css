@@ -1,0 +1,67 @@
+/* PROPERTY CARD HOVER EFFECT */
+.property-card {
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.property-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* IMAGE ZOOM ON HOVER */
+.property-card img {
+  transition: transform 0.4s ease;
+  height: 220px;
+  object-fit: cover;
+}
+
+.property-card:hover img {
+  transform: scale(1.08);
+}
+
+/* ICON ROW */
+.icon-row {
+  display: flex;
+  gap: 12px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* TAG STYLE */
+.badge-tag {
+  font-size: 11px;
+  padding: 5px 8px;
+  border-radius: 6px;
+}
+
+/* HEART ICON HOVER */
+.icon-heart {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.icon-heart:hover {
+  color: red;
+  transform: scale(1.2);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.section-highlight {
+  animation: highlightSection 1.5s ease;
+}
+
+@keyframes highlightSection {
+  0% {
+    background-color: #fff3cd;
+    transform: scale(1.01);
+  }
+
+  100% {
+    background-color: transparent;
+    transform: scale(1);
+  }
+}
