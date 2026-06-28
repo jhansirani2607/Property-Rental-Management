@@ -14,7 +14,7 @@ function Register() {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/register",
+        "https://property-rental-management-w3uf.onrender.com/api/register",
         { fullName, email, password }
       );
 

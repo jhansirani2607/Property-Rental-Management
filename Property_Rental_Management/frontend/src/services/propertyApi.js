@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/properties";
+const API_URL = "https://property-rental-management-w3uf.onrender.com/api/properties";
 
 // Get all properties
 export const getProperties = async () => {

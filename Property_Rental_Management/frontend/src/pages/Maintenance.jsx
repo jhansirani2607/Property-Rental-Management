@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const API_URL = "http://localhost:5000/api/maintenance"; // adjust to your backend port
+const API_URL = "https://property-rental-management-w3uf.onrender.com/api/maintenance"; // adjust to your backend port
 
 function Maintenance() {
   const [requests, setRequests] = useState([]);

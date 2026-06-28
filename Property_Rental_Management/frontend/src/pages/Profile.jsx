@@ -30,7 +30,7 @@ const handleUpdateProfile = async (e) => {
     const { fullName, email, phone, address, currentPassword, newPassword } = profile;
 
     const res = await axios.put(
-      `http://localhost:5000/api/users/${user.id}`,
+      `https://property-rental-management-w3uf.onrender.com/api/users/${user.id}`,
       {
         fullName,
         email,

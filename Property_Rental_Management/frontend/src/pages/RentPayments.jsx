@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const API_URL = "http://localhost:5000/api/payments";
+const API_URL = "https://property-rental-management-w3uf.onrender.com/api/payments";
 
 function RentPayments() {
   const [payments, setPayments] = useState([]);

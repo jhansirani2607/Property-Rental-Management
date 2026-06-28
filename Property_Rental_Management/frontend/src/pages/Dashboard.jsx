@@ -37,7 +37,7 @@ function Dashboard() {
 
   const loadActivities = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/activities");
+      const res = await fetch("https://property-rental-management-w3uf.onrender.com/api/activities");
       const data = await res.json();
       setActivities(data);
     } catch (error) {
